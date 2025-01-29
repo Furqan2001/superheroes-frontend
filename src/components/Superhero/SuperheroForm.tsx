@@ -7,7 +7,7 @@ export const SuperheroForm: React.FC<{
   const [superhero, setSuperhero] = useState<Superhero>({
     name: "",
     superpower: "",
-    humilityScore: 1,
+    humilityScore: 0,
   });
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -27,7 +27,7 @@ export const SuperheroForm: React.FC<{
     setSuperhero({
       name: "",
       superpower: "",
-      humilityScore: 1,
+      humilityScore: 0,
     });
   };
 
